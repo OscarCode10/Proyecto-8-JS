@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navidad</title>
+    <title>Christmas</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <div class="countDown">
+        <div>
+            <h1 class="state"></h1>
+        </div>
+        <div class="counts">
+            <div class="time">
+                <span class="count" id="days">00</span>
+                <h5>D</h5>
+            </div>
+            <div class="time">
+                <span class="count" id="hours">00</span>
+                <h5>H</h5>  
+            </div>
+            <div class="time">
+                <span class="count" id="minutes">00</span>
+                <h5>M</h5>
+            </div>
+            <div class="time">
+                <span class="count" id="seconds">00</span>
+                <h5>S</h5>
+            </div>
+        </div>
+        <div class="btn">
+            <input class="play" type="submit" value="Play">
+            <input class="pause" type="submit" value="Pause">
+        </div>
+    </div>
+    <img class="off" src="./img/papaNoel.png">
+    <img class="on" src="./img/papaNoel.gif">
+    <script src="./script.js"></script>
 </body>
 </html>
